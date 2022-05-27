@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.frame-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 374px;
+  width: 739px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  background-color: 
+#d9d9d9;
+  display: flex;
+  flex-direction: column;
+  min-height: 369px;
+  padding: 59px 86px;
+  width: 733px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: 
+#952323;
+  display: flex;
+  height: 89px;
+  margin-top: 19px;
+  min-width: 364px;
+  padding: 31px 41px;
+}
+
+.hello-world,
+.place {
+  letter-spacing: 0;
+  min-height: 15px;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: 
+#a62865;
+  display: flex;
+  height: 71px;
+  margin-left: 41px;
+  margin-top: 72px;
+  min-width: 181px;
+  padding: 21px 63px;
+}
